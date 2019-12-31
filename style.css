@@ -1,0 +1,182 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Top-Header CSS Starts*/
+.top-header {
+  height: 50px;
+  background-color: #212121;
+}
+
+.social-links {
+  width: 48%;
+  height: 50px;
+  float: left;
+  background-color: #212121;
+  padding: 0px 0px 0px 2%;
+}
+
+.social-links .fab {
+  padding: 10px;
+  font-size: 15px;
+  margin: 7px 2px;
+  text-align: center;
+  background-color: #303030;
+  color: gainsboro;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.fa-facebook:hover {
+  color: white;
+  background: #3B5998;
+  ;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google:hover {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: #3f729b;
+  color: white;
+}
+
+.contact {
+  float: right;
+  width: 50%;
+  height: auto;
+}
+
+.callme-btn {
+  float: right;
+  margin: 10px 30px 10px 0px;
+  border-radius: 2px;
+  border: none;
+  border-color: black;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 15px;
+  color: black;
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+
+.callme-btn:hover {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: yellowgreen;
+  border-width: 2px;
+  background-color: #212121;
+  color: yellowgreen;
+  transition: 0.5s;
+}
+
+.contactnum {
+  float: right;
+  font-size: 18px;
+  color: white;
+  margin: 12px 20px 12px 0px;
+}
+
+.phn-icon {
+  float: right;
+  margin: 10px 5px;
+
+}
+
+/* @media screen and (max-width: 1200px) {
+  .top-header {
+    float: none;
+    display: block;
+    height: 160px;
+    text-align: center;
+    margin-bottom: 50px;
+  } */
+/* Top-Header CSS End*/
+
+/* NavBar CSS Starts */
+
+/* .responsivenavbar {
+  margin-top: 200px;
+} */
+
+
+/* Change Brand Font */
+/* .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+  }
+
+/* Change Navigation Color */
+/* .navbar #myMenu .custom-nav .nav-item a {
+    color: black;
+    float: right;
+  }
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: black;
+    font-weight: bold;
+
+  } */
+
+.navbar {
+  height: auto;
+  width: 100vw;
+  margin-top: 0px;
+  background-color: #bb0000;
+  border: none;
+}
+
+.nav-logo {
+  float: left;
+  margin-top: 0px;
+  border-color: aqua;
+  border-style: solid;
+}
+
+.nav-sec {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+  border-style: solid;
+}
+
+.nav-item {
+  margin: 0 0.75vw;
+  padding: 0;
+  font-size: 2.2vh;
+  border: solid;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #212121;
+}
+
+.slider {
+  margin: 0px auto;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: sans-serif;
+  float: none;
+}
